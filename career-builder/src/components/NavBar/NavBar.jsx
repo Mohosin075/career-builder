@@ -62,7 +62,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="my-btn px-2 py-1 md:px-7 md:py-5 text-sm md:text-2xl text-white">
+        <a className="my-btn px-2 py-1 md:px-7 cursor-pointer md:py-5 text-sm md:text-2xl text-white">
           Star Applying
         </a>
       </div>
