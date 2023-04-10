@@ -1,9 +1,10 @@
 import React from 'react';
+import SubHeader from '../SubHeader/SubHeader';
 
-const Blogs = () => {
+const Blogs = ({children}) => {
     return (
         <div>
-            blogs
+            <SubHeader data={children}></SubHeader>
         </div>
     );
 };

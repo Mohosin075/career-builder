@@ -1,9 +1,10 @@
 import React from 'react';
+import SubHeader from '../SubHeader/SubHeader';
 
-const AppliedJobs = () => {
+const AppliedJobs = ({children}) => {
     return (
         <div>
-            applied jobs
+            <SubHeader data={children}></SubHeader>
         </div>
     );
 };
