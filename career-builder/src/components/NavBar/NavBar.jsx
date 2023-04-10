@@ -10,9 +10,9 @@ const NavBar = () => {
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-4 w-4"
               fill="none"
-              viewBox="0 0 24 24"
+              viewBox="0 0 16 16"
               stroke="currentColor"
             >
               <path
@@ -41,7 +41,7 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost font-bold normal-case text-2xl md:text-3xl">
+        <a className="btn btn-ghost font-bold normal-case text-xl md:text-3xl">
           Career<span className="text-[#112eeb]">Builder</span>
         </a>
       </div>

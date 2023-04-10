@@ -1,0 +1,162 @@
+[
+  [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/TgZRh4j/accounts-1.png",
+      "title": "Account & Finance",
+      "jobs": 105
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/GsdBMSy/business-1.png",
+      "title": "Creative Design",
+      "jobs": 36
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/N1CZk2b/chip-1.png",
+      "title": "Marketing & Sales",
+      "jobs": 78
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/J5Spb5v/social-media-1.png",
+      "title": "Engineering Job",
+      "jobs": 208
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "image": "https://www.shutterstock.com/image-vector/engineering-gear-logo-design-symbol-260nw-641069857.jpg",
+      "title": "Engineering Job",
+      "email": "info@gmail.com",
+      "phone": "01750-00 00 00",
+      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+      "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+      "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+      "company": "Netflix",
+      "category": ["remote", "full time"],
+      "location": "Dhaka, Bangladesh",
+      "salary": "100k to 150K",
+      "experience": "2 to 3 years"
+    },
+    {
+      "id": 2,
+      "image": "https://dcassetcdn.com/design_img/3775593/764921/22881927/b1kqzawxrbjqtmhtar15kdhyrx_image.jpg",
+      "title": "Hardware Engineer",
+      "email": "hr@company.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St, Anytown USA",
+      "description": "A hardware engineer is responsible for designing and developing computer hardware, including circuit boards, processors, and other computer components. They may also be responsible for testing and debugging hardware components, as well as working with software engineers to ensure compatibility between hardware and software systems.",
+      "responsibility": "Designing hardware components: Hardware engineers use computer-aided design (CAD) software to design and develop computer hardware components. They may also be responsible for testing and debugging hardware components to ensure that they work as intended. Working with software engineers: Hardware engineers work closely with software engineers to ensure that hardware and software systems are compatible and work together seamlessly.",
+      "company": "Apple",
+      "category": ["on site", "full time"],
+      "location": "Cupertino, CA",
+      "salary": "120k to 180K",
+      "experience": "5+ years"
+    },
+    {
+      "id": 3,
+      "image": "https://www.backend.ai/assets/backend-ai-txtlogo-1300-630.png",
+      "title": "Backend Developer",
+      "email": "jobs@company.com",
+      "phone": "555-555-5555",
+      "address": "1234 Elm St, Anytown USA",
+      "description": "A backend developer is responsible for building and maintaining the server-side of web applications. They are responsible for developing and maintaining the code that interacts with databases, web servers, and other backend systems.",
+      "responsibility": "Developing and maintaining backend systems: Backend developers are responsible for developing and maintaining the code that interacts with databases, web servers, and other backend systems. They may also be responsible for developing APIs (Application Programming Interfaces) for use by front-end developers.",
+      "company": "Google",
+      "category": ["remote", "part time"],
+      "experience": "2+ years",
+      "salary": "120k to 180K",
+      "location": "Cupertino, kalifo"
+    },
+    {
+      "id": 4,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/007/978/948/small/digital-marketing-logo-design-template-vector.jpg",
+      "title": "Marketing Manager",
+      "email": "dtbs@company.com",
+      "phone": "795-555-785",
+      "company": "Google",
+      "category": ["Full-time", "Marketing"],
+      "location": "New York, NY",
+      "salary": "150k - 200k",
+      "experience": "1+ years",
+      "description": "The Marketing Manager will be responsible for developing and implementing marketing strategies to meet the company's goals. This role requires a deep understanding of the target audience and the ability to communicate effectively with various stakeholders.",
+      "responsibilities": [
+        "Develop and execute marketing strategies to promote the company's products and services",
+        "Collaborate with cross-functional teams to develop and implement marketing campaigns",
+        "Create and manage marketing budgets",
+        "Analyze market trends and competitor activity to identify opportunities",
+        "Build and maintain relationships with key stakeholders, including customers and partners",
+        "Stay up-to-date with industry trends and best practices"
+      ],
+      "qualifications": [
+        "Bachelor's degree in marketing or related field",
+        "5+ years of experience in marketing",
+        "Proven track record of developing and implementing successful marketing strategies",
+        "Excellent communication and interpersonal skills",
+        "Strong analytical and problem-solving skills",
+        "Ability to work effectively in a fast-paced environment"
+      ]
+    },
+    {
+      "id": 5,
+      "image": "https://img.freepik.com/free-vector/flat-design-data-logo-template_23-2149202844.jpg",
+      "title": "Data Analyst",
+      "email": "seys@company.com",
+      "phone": "555-666-789",
+      "company": "Amazon",
+      "category": ["Full-time", "Data"],
+      "location": "Seattle, WA",
+      "salary": "80k - 120k",
+      "experience": "3+ years",
+      "description": "The Data Analyst will be responsible for collecting and analyzing large data sets to identify trends and insights that will inform business decisions. This role requires a strong understanding of statistical methods and data analysis techniques.",
+      "responsibilities": [
+        "Collect and analyze large data sets using statistical methods and data analysis techniques",
+        "Develop and maintain databases and data systems",
+        "Create and maintain reports and dashboards to track key metrics",
+        "Collaborate with cross-functional teams to identify opportunities for improvement",
+        "Identify and communicate insights and recommendations to stakeholders",
+        "Stay up-to-date with industry trends and best practices in data analysis"
+      ],
+      "qualifications": [
+        "Bachelor's degree in a quantitative field such as mathematics, statistics, or computer science",
+        "2+ years of experience in data analysis",
+        "Proficiency in SQL, Excel, and data visualization tools such as Tableau",
+        "Experience working with large data sets and databases",
+        "Strong analytical and problem-solving skills",
+        "Excellent communication and interpersonal skills"
+      ]
+    },
+    {
+      "id": 6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3e3KOHWmp6bn36s_XtSIFzIeZFXotvUFmzA&usqp=CAU",
+      "title": "Full-Stack Developer",
+      "email": "iyt@company.com",
+      "phone": "045-89-7897",
+      "company": "Amazon",
+      "category": ["Full-time", "IT"],
+      "location": "Seattle, WA",
+      "salary": "120k - 180k",
+      "experience": "4+ years",
+      "description": "The Full-Stack Developer will be responsible for developing and maintaining web applications using modern programming languages and frameworks. This role requires a strong foundation in software engineering principles and the ability to work in a fast-paced, dynamic environment.",
+      "responsibilities": [
+        "Design and develop web applications using modern programming languages and frameworks",
+        "Collaborate with cross-functional teams to identify and prioritize development tasks",
+        "Write clean, efficient, and well-documented code",
+        "Participate in code reviews and maintain code quality standards",
+        "Troubleshoot and debug production issues",
+        "Stay up-to-date with emerging trends and technologies in software engineering"
+      ],
+      "qualifications": [
+        "Bachelor's degree in computer science, engineering, or a related field",
+        "5+ years of experience in web application development",
+        "Strong proficiency in JavaScript, HTML, CSS, and related web technologies",
+        "Experience with modern front-end frameworks, such as React or Angular",
+        "Experience with modern back-end frameworks, such as Node.js or Django",
+        "Strong understanding of software engineering principles and design patterns"
+      ]
+    }
+  ]
+]
