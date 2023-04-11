@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="grid md:grid-cols-2 xl:grid-cols-4 w-full justify-between md:w-8/12">
+        <div className="grid grid-cols-2 xl:grid-cols-4 w-full justify-between md:w-8/12">
           {footerData.map((ftd, idx) => (
             <SetFooterData ftd={ftd} key={idx}></SetFooterData>
           ))}

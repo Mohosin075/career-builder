@@ -1,25 +1,25 @@
 [
   [
     {
-      "id": 1,
+      "id": 11,
       "image": "https://i.ibb.co/TgZRh4j/accounts-1.png",
       "title": "Account & Finance",
       "jobs": 105
     },
     {
-      "id": 2,
+      "id": 22,
       "image": "https://i.ibb.co/GsdBMSy/business-1.png",
       "title": "Creative Design",
       "jobs": 36
     },
     {
-      "id": 3,
+      "id": 33,
       "image": "https://i.ibb.co/N1CZk2b/chip-1.png",
       "title": "Marketing & Sales",
       "jobs": 78
     },
     {
-      "id": 4,
+      "id": 44,
       "image": "https://i.ibb.co/J5Spb5v/social-media-1.png",
       "title": "Engineering Job",
       "jobs": 208
@@ -35,6 +35,14 @@
       "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
       "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
       "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+      "qualifications": [
+        "Bachelor's degree in computer science, engineering, or a related field",
+        "5+ years of experience in web application development",
+        "Strong proficiency in JavaScript, HTML, CSS, and related web technologies",
+        "Experience with modern front-end frameworks, such as React or Angular",
+        "Experience with modern back-end frameworks, such as Node.js or Django",
+        "Strong understanding of software engineering principles and design patterns"
+      ],
       "company": "Netflix",
       "category": ["remote", "full time"],
       "location": "Dhaka, Bangladesh",
@@ -50,6 +58,14 @@
       "address": "123 Main St, Anytown USA",
       "description": "A hardware engineer is responsible for designing and developing computer hardware, including circuit boards, processors, and other computer components. They may also be responsible for testing and debugging hardware components, as well as working with software engineers to ensure compatibility between hardware and software systems.",
       "responsibility": "Designing hardware components: Hardware engineers use computer-aided design (CAD) software to design and develop computer hardware components. They may also be responsible for testing and debugging hardware components to ensure that they work as intended. Working with software engineers: Hardware engineers work closely with software engineers to ensure that hardware and software systems are compatible and work together seamlessly.",
+      "qualifications": [
+        "Bachelor's degree in a quantitative field such as mathematics, statistics, or computer science",
+        "2+ years of experience in data analysis",
+        "Proficiency in SQL, Excel, and data visualization tools such as Tableau",
+        "Experience working with large data sets and databases",
+        "Strong analytical and problem-solving skills",
+        "Excellent communication and interpersonal skills"
+      ],
       "company": "Apple",
       "category": ["on site", "full time"],
       "location": "Cupertino, CA",
@@ -65,6 +81,14 @@
       "address": "1234 Elm St, Anytown USA",
       "description": "A backend developer is responsible for building and maintaining the server-side of web applications. They are responsible for developing and maintaining the code that interacts with databases, web servers, and other backend systems.",
       "responsibility": "Developing and maintaining backend systems: Backend developers are responsible for developing and maintaining the code that interacts with databases, web servers, and other backend systems. They may also be responsible for developing APIs (Application Programming Interfaces) for use by front-end developers.",
+      "qualifications": [
+        "Bachelor's degree in a quantitative field such as mathematics, statistics, or computer science",
+        "2+ years of experience in data analysis",
+        "Proficiency in SQL, Excel, and data visualization tools such as Tableau",
+        "Experience working with large data sets and databases",
+        "Strong analytical and problem-solving skills",
+        "Excellent communication and interpersonal skills"
+      ],
       "company": "Google",
       "category": ["remote", "part time"],
       "experience": "2+ years",

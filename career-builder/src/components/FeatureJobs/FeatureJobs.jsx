@@ -1,7 +1,7 @@
 import React from "react";
 import FeatureJob from "../FeatureJob/FeatureJob";
 
-const FeatureJobs = ({ featureJobs }) => {
+const FeatureJobs = ({jobsData, handleShowDetails}) => {
   return (
     <div className="px-4 2xl:px-72 xl:px-20">
       <h2 className="text-[#1A1919] text-3xl md:text-5xl font-bold text-center">
@@ -12,8 +12,8 @@ const FeatureJobs = ({ featureJobs }) => {
         need. Its your future
       </p>
       <div className="grid md:grid-cols-2 gap-5">
-        {featureJobs.map((featureJob) => (
-          <FeatureJob key={featureJob.id} featureJob={featureJob}></FeatureJob>
+        {jobsData.map((featureJob) => (
+          <FeatureJob key={featureJob.id} featureJob={featureJob} handleShowDetails={handleShowDetails}></FeatureJob>
         ))}
       </div>
       <div className="text-center mt-12 mb-32">
