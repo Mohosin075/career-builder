@@ -4,6 +4,7 @@ import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import JobDetail from "../JobDetail/JobDetail";
 
 const JobDetails = ({ children }) => {
+
   const allData = useLoaderData();
   const { detailsId } = useParams();
   const allJobData = allData[1];
