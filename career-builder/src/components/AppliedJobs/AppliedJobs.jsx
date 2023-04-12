@@ -75,15 +75,15 @@ const AppliedJobs = ({ children }) => {
             back to home and apply job
           </button>
         </div>
-        <div className={`text-[#474747] mb-5 justify-between items-center ${allAppliedData.length === 0 ? "hidden" : "flex"}`}>
+        <div className={`text-[#474747] mb-5 justify-between items-center ${allAppliedData.length === 0 ? "hidden" : "flex flex-col md:flex-row space-y-4 justify-center"}`}>
           <div className="text-sm md:text-xl font-bold py-2 md:py-3 px-2 md:px-4 bg-[#F4F4F4] inline-block rounded-md">
             Total Jobs : {total}
           </div>
-          <div className="text-[#474747] mb-5 justify-end items-center flex">
+          <div className="text-[#474747] mb-5 flex-wrap justify-center items-center flex">
           <h2 className="text-sm md:text-xl font-bold py-2 md:py-3 px-2 md:px-4 bg-[#F4F4F4] inline-block rounded-md">
             <span>Filter By :</span>
           </h2>
-          <div className="space-x-2 md:space-x-4 ms-2 md:ms-4">
+          <div className="space-x-1 md:space-x-4 ms-2 md:ms-4">
             <button onClick={()=>handleAllFilter()} className="text-xs md:text-lg p-2 bg-gray-100 rounded-md">
               All
             </button>
