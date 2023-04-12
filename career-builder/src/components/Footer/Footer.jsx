@@ -1,6 +1,7 @@
 import React from "react";
 import SetFooterData from "../SetFooterData/SetFooterData";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
   const footerData = [
     ["Company", "About Us", "Work", "Latest News", "Careers"],
@@ -23,19 +24,19 @@ const Footer = () => {
               className="p-3 text-center w-8 h-8 lg:w-10 w-8 h-8 lg:h-10 flex justify-center items-center mr-4 rounded-full bg-zinc-400"
               href=""
             >
-              F
+              <span><i className="fa-brands fa-twitter"></i></span>
             </a>
             <a
               className="p-3 text-center w-8 h-8 lg:w-10 w-8 h-8 lg:h-10 flex justify-center items-center mr-4 rounded-full bg-zinc-400"
               href=""
             >
-              T
+              <span><i className="fa-brands fa-facebook"></i></span>
             </a>
             <a
               className="p-3 text-center w-8 h-8 lg:w-10 w-8 h-8 lg:h-10 flex justify-center items-center mr-4 rounded-full bg-zinc-400"
               href=""
             >
-              I
+              <span><i className="fa-brands fa-github"></i></span>
             </a>
           </div>
         </div>

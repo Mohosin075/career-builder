@@ -35,10 +35,10 @@ const FeatureJob = ({ handleShowDetails, featureJob, submitJob }) => {
             </button>
           </div>
           <div className="flex mb-2">
-            <p className="text-[#757575] text-xs md:text-lg mt-4 mb-3 mr-8">
+            <p className="text-[#757575] text-xs md:text-lg mt-4 mb-3 mr-8"> <span className="mr-3"><i className="fa-solid fa-location-dot"></i></span>
               {location}
             </p>
-            <p className="text-[#757575] text-xs md:text-lg mt-4 mb-3">
+            <p className="text-[#757575] text-xs md:text-lg mt-4 mb-3"><span className="mr-3"><i className="fa-solid fa-sack-dollar"></i></span>
               Salary : {salary}
             </p>
           </div>

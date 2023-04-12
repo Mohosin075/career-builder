@@ -26,7 +26,6 @@ const Home = () => {
     const handleShowDetails =(id)=>{
         navigate(`/${id}`)
     }
-    const lod = <h1 className='text-9xl text-red-600'>Loading.....</h1>
     return (
         <div>
             <Header></Header>

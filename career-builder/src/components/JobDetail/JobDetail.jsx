@@ -72,13 +72,13 @@ const JobDetail = ({ singleJob, allJobData }) => {
           <hr className="border-1 border-gray-300 my-4" />
           <div className="space-y-2">
             <p className="text-[#757575] text-sm lg:text-lg">
-              <span className="text-[#474747] text-sm lg:text-lg font-semibold">
+              <span className="text-[#474747] text-sm lg:text-lg font-semibold"><span className="mr-3"><i className="fa-solid fa-sack-dollar"></i></span>
                 Sarary :
               </span>{" "}
               {salary}
             </p>
             <p className="text-[#757575] text-sm lg:text-lg">
-              <span className="text-[#474747] text-sm lg:text-lg font-semibold">
+              <span className="text-[#474747] text-sm lg:text-lg font-semibold"><span className="mr-3"><i className="fa-solid fa-shuttle-space"></i></span>
                 Job Title :
               </span>{" "}
               {title}
@@ -90,15 +90,15 @@ const JobDetail = ({ singleJob, allJobData }) => {
           <hr className="border-1 border-gray-300 my-4" />
           <div className="space-y-2">
             <p className="text-[#757575] text-sm lg:text-lg">
-              <span className="text-[#474747] font-semibold">Phone :</span>{" "}
+              <span className="text-[#474747] font-semibold"><span className="mr-3"><i className="fa-solid fa-phone"></i></span>Phone :</span>{" "}
               {phone}
             </p>
             <p className="text-[#757575] text-sm lg:text-lg">
-              <span className="text-[#474747] font-semibold">Email :</span>{" "}
+              <span className="text-[#474747] font-semibold"><span className="mr-3"><i className="fa-solid fa-envelope"></i></span>Email :</span>{" "}
               {email}
             </p>
             <p className="text-[#757575] text-sm lg:text-lg">
-              <span className="text-[#474747] font-semibold">Address :</span>{" "}
+              <span className="text-[#474747] font-semibold"><span className="mr-3"><i className="fa-solid fa-location-dot"></i></span>Address :</span>{" "}
               {location}
             </p>
           </div>
