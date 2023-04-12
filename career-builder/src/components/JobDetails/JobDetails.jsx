@@ -24,7 +24,7 @@ const JobDetails = ({ children }) => {
       <SubHeader data={children}></SubHeader>
       <div className="px-4 2xl:px-72 xl:px-20 py-16 lg:py-32">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
-          <JobDetail singleJob={jobData}></JobDetail>
+          <JobDetail singleJob={jobData} allJobData={allJobData}></JobDetail>
         </div>
         <div className="text-center mt-8">
           <button
