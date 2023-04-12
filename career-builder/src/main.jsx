@@ -24,7 +24,6 @@ const router = createBrowserRouter([
         path : '/',
         element : <Home></Home>,
         loader : ()=> fetch('allData.json'),
-        // loader : ()=> fetch('tshits.json'),
       },
       {
         path : '/statistics',
