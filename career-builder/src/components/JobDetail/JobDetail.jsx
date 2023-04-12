@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { addToDb, getAppliedJobs } from "../../utilities/fakedb";
 import { useLoaderData, useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
 
 const JobDetail = ({ singleJob, allJobData }) => {
-  // const navigate = useNavigate();
-
   const {
     id,
     title,
@@ -20,9 +19,15 @@ const JobDetail = ({ singleJob, allJobData }) => {
 
 
   const handleApplyNow = (id) => {
-    // navigate('/applied')
-    addToDb(id);
-    alert("job applied")
+    const stored = getAppliedJobs(id);
+    const storeKey=Object.keys(stored);
+    const exist = storeKey.find(st=>st==id);
+    if(!exist){
+      toast("Success to Apply!");
+      addToDb(id);
+    }else{
+      toast("Already Applied!");
+    }
   };
 
   return (
