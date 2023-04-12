@@ -1,9 +1,13 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigation } from "react-router-dom";
 
 const FeatureJob = ({ handleShowDetails, featureJob, submitJob }) => {
   const { image, id, title, company, salary, location, category } =
     featureJob || submitJob;
+
+    const navigation = useNavigation();
+
+    navigation.state==="loading" && "loading"
 
   return (
     <div

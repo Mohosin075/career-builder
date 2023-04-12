@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../Header/Header';
 import JobCatagorys from '../JobCatagorys/JobCatagorys';
-import { useLoaderData, useNavigate } from 'react-router-dom';
+import { useLoaderData, useNavigate, useNavigation } from 'react-router-dom';
 import FeatureJobs from '../FeatureJobs/FeatureJobs';
 
 const Home = () => {
@@ -11,6 +11,7 @@ const Home = () => {
     const [jobsData, setJobsData] = useState([...featureJobs]);
     const sliceJobData = jobsData.slice(0,4)
     
+    const navigation = useNavigation();
 
     useEffect(()=>{
         setJobsData(sliceJobData)
@@ -26,9 +27,14 @@ const Home = () => {
     const handleShowDetails =(id)=>{
         navigate(`/${id}`)
     }
-
+    const lod = <h1 className='text-9xl text-red-600'>Loading.....</h1>
     return (
         <div>
+            <div>
+                {
+                    navigation.state==="loading" && `${lod}`
+                }
+            </div>
             <Header></Header>
             <JobCatagorys jobCatagory={jobCatagory}></JobCatagorys>
             <FeatureJobs 
