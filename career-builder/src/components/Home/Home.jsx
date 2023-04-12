@@ -9,6 +9,19 @@ const Home = () => {
     const jobCatagory = allData[0];
     const featureJobs = allData[1]
     const [jobsData, setJobsData] = useState([...featureJobs]);
+    const sliceJobData = jobsData.slice(0,4)
+    
+
+    useEffect(()=>{
+        setJobsData(sliceJobData)
+    },[])
+
+
+    const handleSeeAll=()=>{
+        setJobsData(featureJobs);
+    }
+
+
     const navigate = useNavigate();
     const handleShowDetails =(id)=>{
         navigate(`/${id}`)
@@ -21,6 +34,7 @@ const Home = () => {
             <FeatureJobs 
             jobsData={jobsData}
             handleShowDetails={handleShowDetails}
+            handleSeeAll={handleSeeAll}
             ></FeatureJobs>
         </div>
     );
