@@ -14,7 +14,7 @@ const FeatureJob = ({ handleShowDetails, featureJob, submitJob }) => {
       }
     >
       <div className={submitJob && "md:flex items-center"}>
-        <img src={image} className="h-24 mb-4" alt="" />
+        <img src={image} className={featureJob ? "h-24 mb-4" : "h-24 mb-4 w-24 mr-5"} alt="" />
         <div>
           <h2 className="text-[#474747] text-xl md:text-2xl font-bold">
             {title}
